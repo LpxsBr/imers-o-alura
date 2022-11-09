@@ -1,0 +1,42 @@
+{
+    "name": "Anselmo Lopes",
+    "age": "20",
+    "course": "Engenharia",
+    "avatar": "https://avatars.githubusercontent.com/u/96118395?v=4",
+    "playlists": {
+        "jogos": [
+            {
+                "title": "Aula 01 - Imersão React",
+                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
+                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+            },
+            {
+                "title": "Aula 01 - Imersão React",
+                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
+                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+            },
+            {
+                "title": "Aula 01 - Imersão React",
+                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
+                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+            }
+        ],
+        "front-end": [
+            {
+                "title": "Aula 01 - Imersão React",
+                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
+                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+            },
+            {
+                "title": "Aula 01 - Imersão React",
+                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
+                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+            },
+            {
+                "title": "Aula 01 - Imersão React",
+                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
+                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+            }
+        ]
+    }
+}
