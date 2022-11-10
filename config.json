@@ -5,152 +5,84 @@
     "course": "Engenharia",
     "avatar": "https://avatars.githubusercontent.com/u/96118395?v=4",
     "playlists": {
-        "jogos": [
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },{
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },{
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            }
-        ],
         "front-end": [
             {
                 "title": "Aula 01 - Imersão React",
                 "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw",
+                "channel": "Alura Cursos Online",
+                "avatar-channel": "https://yt3.ggpht.com/ytc/AMLnZu9-n9mDtKOwVMx3_-2zr8H57lHFag5t-0JcJNFPUQ=s88-c-k-c0x00ffffff-no-rj",
+                "views": "2.2",
+                "posted_at": "10"
             },
             {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+                "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+                "thumb": "https://i.ytimg.com/vi/ZY3-MFxVdEw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-L-qLxEVrAfIj3jWueanLlbdA6Q",
+                "channel": "Alura Cursos Online",
+                "avatar-channel": "https://yt3.ggpht.com/ytc/AMLnZu9-n9mDtKOwVMx3_-2zr8H57lHFag5t-0JcJNFPUQ=s88-c-k-c0x00ffffff-no-rj",
+                "views": "355",
+                "posted_at": "10"
             },
             {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+                "title": "12HR+ YouTube Coding Bootcamp!",
+                "url": "https://youtu.be/Xm4BObh4MhI",
+                "thumb": "https://i.ytimg.com/vi/Xm4BObh4MhI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsX8pGdmUPyhCs-QZPBpR_BycLWw",
+                "channel": "Code with Ania Kubów",
+                "avatar-channel": "https://yt3.ggpht.com/ytc/AMLnZu_y-RTrh1EW3izdOr9w9yrPhMQae8lH3MDtpct4_g=s88-c-k-c0x00ffffff-no-rj",
+                "views": "33",
+                "posted_at": "10"
             },
             {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+                "title": "Scroll to mapped Components CORRECTLY in React 🤯 - Mapping react refs",
+                "url": "https://www.youtube.com/watch?v=vIA10kmNXwU",
+                "thumb": "https://i.ytimg.com/vi/vIA10kmNXwU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1dNRNDwTMkZIzy9WZ2Nzco8HuQw",
+                "channel": "Code with Ania Kubów",
+                "avatar-channel": "https://yt3.ggpht.com/ytc/AMLnZu_y-RTrh1EW3izdOr9w9yrPhMQae8lH3MDtpct4_g=s88-c-k-c0x00ffffff-no-rj",
+                "views": "15",
+                "posted_at": "10"
+            }
+        ],
+        "back-end": [
+            {
+                "title": "Me veja programar um Backend que troca informação em tempo-real!",
+                "url": "https://www.youtube.com/watch?v=rc3SSOiwTns",
+                "thumb": "https://i.ytimg.com/vi/rc3SSOiwTns/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCG8BJbMf9-ZF4e990r5AO3pU5Ofg",
+                "channel": "Filipe Deschamps",
+                "avatar-channel": "https://yt3.ggpht.com/ytc/AMLnZu9-n9mDtKOwVMx3_-2zr8H57lHFag5t-0JcJNFPUQ=s88-c-k-c0x00ffffff-no-rjno-rj",
+                "views": "117",
+                "posted_at": "10"
             },
             {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
+                "title": "O que estudar para ser desenvolvedor backend",
+                "url": "https://www.youtube.com/watch?v=3Wo4L2dPS58",
+                "thumb": "https://i.ytimg.com/vi/3Wo4L2dPS58/mqdefault.jpg",
+                "channel": "Code By Duda",
+                "avatar-channel": "https://yt3.ggpht.com/68OEGdoAZTHOD0Xecjx2_MFN1mBFnAwr7aGzOkwnxFNy7wakZhCST0jHmBz5Ob7fZMM-UkP83w=s88-c-k-c0x00ffffff-no-rj",
+                "views": "38",
+                "posted_at": "6"
+            }
+        ],
+        "QA / Tests": [
             {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },{
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
+                "title": "O que são testes automatizados ?",
+                "url": "https://youtu.be/-TDgy8lhq-k?list=PLzehOqhpwpxjs8bfI72dR-wV-7ZGxfuTN",
+                "thumb": "https://i.ytimg.com/vi/-TDgy8lhq-k/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB4oaIbrbO6Ge7FMG-6zPLou3Al5A",
+                "channel": "Filho da nuvem",
+                "avatar-channel": "https://yt3.ggpht.com/AcJCTkZseyDVONbdCiAOL5RqYias8bx07L0rR9jOum5nBHPYqUELHtioTLFzGjvSTdFFTdZI-Q=s88-c-k-c0x00ffffff-no-rj",
+                "views": "5",
+                "posted_at": "10"
+            }
+        ],
+        "Life style": [
             {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },{
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },{
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },{
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
-            },
-            {
-                "title": "Aula 01 - Imersão React",
-                "url": "https://www.youtube.com/watch?v=153xkza4NHQ",
-                "thumb": "https://i.ytimg.com/vi/153xkza4NHQ/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBZ59BcqihCigRixdwEMrkqVzdyQw"
+                "title": "SÓ O TEMPO | Estados Unidos",
+                "url": "https://www.youtube.com/watch?v=iytVv5OS0zE",
+                "thumb": "https://i.ytimg.com/vi/iytVv5OS0zE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWdQI3baP-K-u2dga2iniYORRXww",
+                "channel": "Vitor Liberato",
+                "avatar-channel": "https://yt3.ggpht.com/Ov2153uwYhlj4SGQyyRpwirOhwugpIMOoZ8VcGKkrOQldcNMejRFJGqYC44zmXa612-IdoVQ=s88-c-k-c0x00ffffff-no-rj",
+                "views": "248",
+                "posted_at": "10"
             }
         ]
     }
