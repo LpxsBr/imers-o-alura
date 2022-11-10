@@ -56,12 +56,20 @@ function Timeline(props) {
                         <div className="scrolls">
                             {/* video */}
                             {videos.map((video) => {
+                                // testing the title length to format title
+                                const video_title = (video.title).length > 35 ? (video.title).substring(0, 35) + "  ..." : video.title ;
                                 return (
                                     <a href={video.url}>
                                         <img src={video.thumb} />
                                         <span>
-                                            {video.title}
+                                            <h2 className="video-title">{video_title}</h2>
                                         </span>
+                                        <p className="channel-name">
+                                            {video.channel}
+                                        </p>
+                                        <p className="video-views">
+                                            {video.views} mil visualizações * há {video.posted_at} meses
+                                        </p>
                                     </a>
                                 )
                             })}
