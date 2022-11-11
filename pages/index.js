@@ -1,9 +1,12 @@
 import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset.js";
-import { StyledTimeline } from "../src/components/Timeline.js"
-import { HeaderStyle } from "../src/components/Header.js"
+import { StyledTimeline } from "../src/components/Timeline.js";
+import { HeaderStyle } from "../src/components/Header.js";
+import { StyledBanner } from "../src/components/Banner.js";
 import Menu from "../src/components/Menu.js";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function home() {
     return (
@@ -11,6 +14,7 @@ function home() {
             <CSSReset />
             <div>
                 <Menu />
+                <Banner />
                 <Header />
                 <Timeline playlists={config.playlists} />
             </div>
@@ -19,6 +23,27 @@ function home() {
     );
 }
 export default home;
+
+function Banner() {
+    return (
+        <StyledBanner>
+            <div className="banner"
+                style={{
+                    background: "url(" + config.banner + ")",
+                    backgroundPositionX: "50%",
+                    backgroundPositionY: "30%"
+                }}>
+                    <div className="svg">
+                        <div className="icons">
+                            <a src={"www.github.com/" + config.github}>
+                                {/* <FontAwesomeIcon icon={brands('github')} /> */}
+                            </a>
+                        </div>
+                    </div>                    
+            </div>
+        </StyledBanner>
+    );
+}
 
 function Header() {
 
@@ -57,7 +82,7 @@ function Timeline(props) {
                             {/* video */}
                             {videos.map((video) => {
                                 // testing the title length to format title
-                                const video_title = (video.title).length > 35 ? (video.title).substring(0, 35) + "  ..." : video.title ;
+                                const video_title = (video.title).length > 35 ? (video.title).substring(0, 35) + "  ..." : video.title;
                                 return (
                                     <a href={video.url}>
                                         <img src={video.thumb} />
