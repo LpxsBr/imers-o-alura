@@ -57,7 +57,7 @@ function Header() {
                     </p>
                 </div>
             </div>
-            <div className="menuVideos scrolls">
+            <div className="menuVideos channelMenuScroll">
                 <ul><a href="#">INÍCIO</a></ul>
                 <ul><a href="#">VÍDEOS</a></ul>
                 <ul><a href="#">SHORTS</a></ul>
@@ -85,7 +85,7 @@ function Timeline(props) {
                 return (
                     <section>
                         <h2>{playlistName}</h2>
-                        <div className="scrolls">
+                        <div className="timelineScroll">
                             {/* video */}
                             {videos.map((video) => {
                                 // testing the title length to format title

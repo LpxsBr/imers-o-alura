@@ -42,14 +42,15 @@ export const HeaderStyle = styled.header`
         }
     }
     .menuVideos{
-        width: 60%;
+        width: 90%;
         display: flex;
         margin-left: 5%;
+        margin-right: 5%;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
 
-    .scrolls::-webkit-scrollbar{
+    .channelMenuScroll::-webkit-scrollbar{
         display: none;
     }
     ul{

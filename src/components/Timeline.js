@@ -66,7 +66,12 @@ export const StyledTimeline = styled.div`
         color: black;
       }
     }
-    .scrolls::-webkit-scrollbar {
+    .timelineScroll{
+      width: 110vw;
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+    .timelineScroll::-webkit-scrollbar {
     display: none;
 }
   
