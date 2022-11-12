@@ -15,6 +15,7 @@ function home() {
                 <Menu />
                 <Banner />
                 <Header />
+                <View />
                 <Timeline playlists={config.playlists} />
                 <Favorites favorites={config.favorites} />
             </div>
@@ -74,6 +75,14 @@ function Header() {
             {/* user info */}
         </HeaderStyle>
     );
+}
+
+function View() {
+    return (
+        <div className="viewVideo" style={{ display: "flex", width: "500px", height: "300px", margin: "10px", marginLeft: "100px" }}>
+            <iframe width="500px" height="300px" src="https://www.youtube.com/embed/-TDgy8lhq-k?list=PLzehOqhpwpxjs8bfI72dR-wV-7ZGxfuTN" title="O que são testes automatizados ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    )
 }
 
 function Timeline(props) {
