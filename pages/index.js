@@ -57,6 +57,17 @@ function Header() {
                     </p>
                 </div>
             </div>
+            <div className="menuVideos scrolls">
+                <ul><a href="#">INÍCIO</a></ul>
+                <ul><a href="#">VÍDEOS</a></ul>
+                <ul><a href="#">SHORTS</a></ul>
+                <ul><a href="#">AO VIVO</a></ul>
+                <ul><a href="#">PLAYLISTS</a></ul>
+                <ul><a href="#">COMUNIDADE</a></ul>
+                <ul><a href="#">CANAIS</a></ul>
+                <ul><a href="#">SOBRE</a></ul>
+                <ul><a href="#">LUPA</a></ul>
+            </div>
             {/* user info */}
         </HeaderStyle>
     );

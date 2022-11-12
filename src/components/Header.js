@@ -40,6 +40,35 @@ export const HeaderStyle = styled.header`
             margin-left: 2%;
         }
     }
+    .menuVideos{
+        width: 60%;
+        display: flex;
+        margin: 5%;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .scrolls::-webkit-scrollbar{
+        display: none;
+    }
+    ul{
+        margin: 3%;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    ul:hover{
+        color: #a9a9a9;
+    }
+
+    a:link{
+        color: black;
+      }
+      a:visited{
+        color: black;
+      }
+
+      
 
     @media (max-width: 600px) {
         *{
