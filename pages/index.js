@@ -5,8 +5,6 @@ import { StyledTimeline } from "../src/components/Timeline.js";
 import { HeaderStyle } from "../src/components/Header.js";
 import { StyledBanner } from "../src/components/Banner.js";
 import Menu from "../src/components/Menu.js";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function home() {
     return (
@@ -36,7 +34,6 @@ function Banner() {
                     <div className="svg">
                         <div className="icons">
                             <a src={"www.github.com/" + config.github}>
-                                {/* <FontAwesomeIcon icon={brands('github')} /> */}
                             </a>
                         </div>
                     </div>                    
@@ -46,7 +43,6 @@ function Banner() {
 }
 
 function Header() {
-
     return (
         <HeaderStyle>
             {/* user info */}
@@ -106,4 +102,3 @@ function Timeline(props) {
         </StyledTimeline>
     );
 }
-

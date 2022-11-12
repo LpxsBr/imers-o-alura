@@ -2,7 +2,6 @@ import styled from "styled-components";
 import config from "../../config.json"
 
 export const StyledBanner = styled.header`
-
 .banner{
     width: 100%;
     height: 45vh;
@@ -10,7 +9,6 @@ export const StyledBanner = styled.header`
     justify-content: end;
     align-items: flex-end;
 }
-
 .svg{
     display: flex;
     align-items: center;
@@ -23,12 +21,10 @@ export const StyledBanner = styled.header`
     backdrop-filter: blur( 5px );
     -webkit-backdrop-filter: blur( 5px );
 }
-
 svg{
     width: 15%;
     margin: 5px;
 }
-
 @media (max-width: 600px){
     .banner{
         width: 100%;
