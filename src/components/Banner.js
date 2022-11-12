@@ -14,7 +14,7 @@ export const StyledBanner = styled.header`
     align-items: center;
     padding: 1%;
     margin-bottom: 1%;
-    margin-right: 13%;
+    margin-right: 0%;
     width: 15%;
     height: 15%;
     position: relative;
@@ -23,8 +23,11 @@ export const StyledBanner = styled.header`
     -webkit-backdrop-filter: blur( 5px );
 }
 svg{
-    width: 20%;
+    width: 30px;
+    height: 30px;
     margin: 5px;
+    fill: white;
+    border-radius: 50%;
 }
 @media (max-width: 600px){
     .banner{
