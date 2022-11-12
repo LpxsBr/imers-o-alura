@@ -14,13 +14,9 @@ export const HeaderStyle = styled.header`
     .user-info{
         display: flex;
         align-items: center;
-        width: 100%;
-        padding: 16px 32px;
+        width: 80%;
+        padding: 10px 70px;
         gap: 16px;
-    }
-    .user-info > div{
-        width: 100%;
-        padding: 2%;
     }
     .user-info > div > h2{
         margin-bottom: -10px;
