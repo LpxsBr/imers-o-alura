@@ -4,6 +4,7 @@ import { CSSReset } from "../src/components/CSSReset.js";
 import { StyledTimeline } from "../src/components/Timeline.js";
 import { HeaderStyle } from "../src/components/Header.js";
 import { StyledBanner } from "../src/components/Banner.js";
+import { StyledFavorites } from "../src/components/Favorites.js"
 import Menu from "../src/components/Menu.js";
 
 function home() {
@@ -15,6 +16,7 @@ function home() {
                 <Banner />
                 <Header />
                 <Timeline playlists={config.playlists} />
+                <Favorites favorites={config.favorites} />
             </div>
         </>
 
@@ -31,12 +33,12 @@ function Banner() {
                     backgroundPositionX: "50%",
                     backgroundPositionY: "30%"
                 }}>
-                    <div className="svg">
-                        <div className="icons">
-                            <a src={"www.github.com/" + config.github}>
-                            </a>
-                        </div>
-                    </div>                    
+                <div className="svg">
+                    <div className="icons">
+                        <a src={"www.github.com/" + config.github}>
+                        </a>
+                    </div>
+                </div>
             </div>
         </StyledBanner>
     );
@@ -66,7 +68,7 @@ function Header() {
                 <ul><a href="#">COMUNIDADE</a></ul>
                 <ul><a href="#">CANAIS</a></ul>
                 <ul><a href="#">SOBRE</a></ul>
-                <ul><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">{/*! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.*/}<path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></a></ul>
+                <ul><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">{/*! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc.*/}<path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" /></svg></a></ul>
             </div>
             {/* user info */}
         </HeaderStyle>
@@ -112,4 +114,37 @@ function Timeline(props) {
             })}
         </StyledTimeline>
     );
+}
+
+function Favorites(props) {
+    const favoritesName = Object.keys(props.favorites);
+    return (
+        <StyledFavorites>
+            {favoritesName.map(function (favoritesName) {
+
+                const favorites = props.favorites[favoritesName];
+                console.log(favoritesName);
+                console.log(favorites);
+                return (
+
+                    <section>
+                        <h2>{favoritesName}</h2>
+                        <div className="favoriteScroll">
+                            {/* fav */}
+                            {favorites.map((fav) => {
+                                return (
+                                    <a href={fav.url}>
+                                        <img className="avatar-channel" src={fav.avatar_channel} />
+                                        <span>
+                                            <h2 className="channelName">{fav.channel}</h2>
+                                        </span>
+                                    </a>
+                                )
+                            })}
+                            {/* fav */}
+                        </div>
+                    </section>)
+            })}
+        </StyledFavorites>);
+
 }
