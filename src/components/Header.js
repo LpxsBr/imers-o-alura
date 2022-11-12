@@ -6,6 +6,7 @@ export const HeaderStyle = styled.header`
         margin-top: 3%;
     }
     img{
+        margin-left: 3%; 
         width: 80px;
         height: 80px;
         border-radius: 50%;
@@ -43,7 +44,7 @@ export const HeaderStyle = styled.header`
     .menuVideos{
         width: 60%;
         display: flex;
-        margin: 5%;
+        margin-left: 5%;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
@@ -68,7 +69,10 @@ export const HeaderStyle = styled.header`
         color: black;
       }
 
-      
+      svg{
+    width: 15%;
+    margin: 5px;
+}
 
     @media (max-width: 600px) {
         *{

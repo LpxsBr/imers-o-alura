@@ -22,7 +22,7 @@ export const StyledBanner = styled.header`
     -webkit-backdrop-filter: blur( 5px );
 }
 svg{
-    width: 15%;
+    width: 20%;
     margin: 5px;
 }
 @media (max-width: 600px){
