@@ -14,7 +14,8 @@ export const StyledBanner = styled.header`
     align-items: center;
     padding: 1%;
     margin-bottom: 1%;
-    width: 20%;
+    margin-right: 13%;
+    width: 15%;
     height: 15%;
     position: relative;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
