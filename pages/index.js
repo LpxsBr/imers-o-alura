@@ -1,11 +1,11 @@
 import config from "../config.json";
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset.js";
-import { StyledTimeline } from "../src/components/Timeline.js";
-import { HeaderStyle } from "../src/components/Header.js";
-import { StyledBanner } from "../src/components/Banner.js";
-import { StyledFavorites } from "../src/components/Favorites.js"
-import Menu from "../src/components/Menu.js";
+import { CSSReset } from "../src/components/CSSReset";
+import { StyledTimeline } from "../src/components/Timeline";
+import { HeaderStyle } from "../src/components/Header";
+import { StyledBanner } from "../src/components/Banner";
+import { StyledFavorites } from "../src/components/Favorites"
+import Menu from "../src/components/Menu";
 
 function home() {
     return (
