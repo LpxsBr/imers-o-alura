@@ -7,6 +7,7 @@ export const StyledTimeline = styled.div`
   overflow: hidden;
 
   h2 {
+    margin-left: 5%;
     font-size: medium;
     margin-bottom: 16px;
     text-transform: capitalize;
@@ -67,9 +68,9 @@ export const StyledTimeline = styled.div`
       }
     }
     .timelineScroll{
-      width: 110vw;
-      margin-left: 6%;
-      margin-right: 6%;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
     .timelineScroll::-webkit-scrollbar {
     display: none;
