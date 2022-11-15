@@ -1,3 +1,4 @@
+import react from "react";
 import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
@@ -8,15 +9,17 @@ import { StyledFavorites } from "../src/components/Favorites"
 import Menu from "../src/components/Menu";
 
 function home() {
+
+    const [valor, setValor] = react.useState("end");
     return (
         <>
             <CSSReset />
             <div>
-                <Menu />
+                <Menu valor={valor} setValor={setValor} />
                 <Banner />
                 <Header />
                 <View />
-                <Timeline playlists={config.playlists} />
+                <Timeline search={valor} playlists={config.playlists} />
                 <Favorites favorites={config.favorites} />
             </div>
         </>
@@ -85,7 +88,7 @@ function View() {
     )
 }
 
-function Timeline(props) {
+function Timeline({ search, ...props }) {
     // console.log("dentro do componente: ", props.playlists)
     const playlistName = Object.keys(props.playlists)
     return (
@@ -99,7 +102,10 @@ function Timeline(props) {
                         <h2>{playlistName}</h2>
                         <div className="timelineScroll">
                             {/* video */}
-                            {videos.map((video) => {
+                            {videos.filter((video) => {
+
+                                return (video.title.toLowerCase().includes(search.toLowerCase()))
+                            }).map((video) => {
                                 // testing the title length to format title
                                 const video_title = (video.title).length > 35 ? (video.title).substring(0, 35) + "  ..." : video.title;
                                 return (

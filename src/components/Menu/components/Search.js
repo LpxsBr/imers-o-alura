@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 const SearchStyle = styled.div`
@@ -27,10 +28,13 @@ button{
 }
 `;
 
-export function Search(){
-    return(
+export function Search({ valor, setValor }) {
+    const info = valor;
+    const setFiltro = setValor;
+
+    return (
         <SearchStyle>
-            <input type="text" placeholder="Buscar"/>
+            <input type="text" placeholder="Buscar" onChange={(info) => { setFiltro(info.target.value) }} />
             <button>
                 Search
             </button>
