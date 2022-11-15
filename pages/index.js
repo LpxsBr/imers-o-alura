@@ -10,7 +10,7 @@ import Menu from "../src/components/Menu";
 
 function home() {
 
-    const [valor, setValor] = react.useState("end");
+    const [valor, setValor] = react.useState("");
     return (
         <>
             <CSSReset />
