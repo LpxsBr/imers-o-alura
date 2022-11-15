@@ -11,6 +11,7 @@ input{
         width: 80%;
         border: 2px solid #ddd;;
         outline: none;
+        padding: 5px 15px;
         background-color: transparent;
         border-radius: 50px 0px 0px 50px;
     }
