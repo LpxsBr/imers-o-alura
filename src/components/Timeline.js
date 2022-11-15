@@ -58,13 +58,16 @@ export const StyledTimeline = styled.div`
           padding-right: 24px;
           margin-bottom: -3%;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
+          h2{
+            margin-left: 0px;
+          }
         }
       }
       a:link{
-        color: black;
+        color: ${({ theme }) => theme.infoTextColorBase};
       }
       a:visited{
-        color: black;
+        color: ${({ theme }) => theme.infoTextColorBase};
       }
     }
     .timelineScroll{
@@ -79,5 +82,12 @@ export const StyledTimeline = styled.div`
   }
   .channel-name, .video-views{
     font-size: small;
+  }
+
+  @media (max-width: 600px) {
+    width: 150%;
+  }
+  @media (max-width: 400px) {
+    width: 250%;
   }
 `;

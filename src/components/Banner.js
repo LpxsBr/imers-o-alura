@@ -2,9 +2,10 @@ import styled from "styled-components";
 import config from "../../config.json"
 
 export const StyledBanner = styled.header`
+
 .banner{
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     display: flex;
     justify-content: end;
     align-items: flex-end;
@@ -30,9 +31,13 @@ svg{
     border-radius: 50%;
 }
 @media (max-width: 600px){
+    width: 150%;
     .banner{
         width: 100%;
         height: 20vh;
     }
 }
+@media (max-width: 400px) {
+    width: 250%;
+  }
 `;

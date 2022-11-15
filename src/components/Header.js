@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const HeaderStyle = styled.header`
+    background-color: ${({theme})=> theme.backgroundLevel1};
+
     *{
         font-family: Helvetica;
         margin-top: 3%;
@@ -38,19 +40,23 @@ export const HeaderStyle = styled.header`
         }
     }
     .menuVideos{
-        width: 90%;
+        width: 80%;
         display: flex;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
+        ul > a{
+            color: ${({theme})=> theme.textColorBase};
+        }
     }
 
     .channelMenuScroll::-webkit-scrollbar{
         display: none;
     }
     ul{
-        margin: 3%;
+        color: ${({theme}) => theme.textColorBase};
+        margin: 2%;
         font-weight: bold;
         font-size: 1em;
     }
@@ -69,9 +75,11 @@ export const HeaderStyle = styled.header`
       svg{
     width: 15%;
     margin: 5px;
+    fill: ${({theme}) => theme.textColorBase};
 }
 
     @media (max-width: 600px) {
+        width: 150%;
         *{
             margin-top: 5%;
         }
@@ -84,6 +92,11 @@ export const HeaderStyle = styled.header`
             padding: 2%;
             font-size: small;
             margin-left: 3%;
+        }
+        .menuVideos{
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
         }
     }
     
@@ -103,4 +116,7 @@ export const HeaderStyle = styled.header`
             margin-left: -1%;
         }
     }
+    @media (max-width: 400px) {
+        width: 250%;
+        }
 `;

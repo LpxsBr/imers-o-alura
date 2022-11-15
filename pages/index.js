@@ -1,7 +1,5 @@
 import react from "react";
 import config from "../config.json";
-import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import { StyledTimeline } from "../src/components/Timeline";
 import { HeaderStyle } from "../src/components/Header";
 import { StyledBanner } from "../src/components/Banner";
@@ -13,7 +11,6 @@ function home() {
     const [valor, setValor] = react.useState("");
     return (
         <>
-            <CSSReset />
             <div>
                 <Menu valor={valor} setValor={setValor} />
                 <Banner />
@@ -35,7 +32,7 @@ function Banner() {
                 style={{
                     background: "url(" + config.banner + ")",
                     backgroundPositionX: "50%",
-                    backgroundPositionY: "30%"
+                    backgroundPositionY: "31%"
                 }}>
                 <div className="svg">
                     <div className="icons">
