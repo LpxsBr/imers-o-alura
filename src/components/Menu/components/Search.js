@@ -30,7 +30,7 @@ button{
 export function Search(){
     return(
         <SearchStyle>
-            <input type="text"/>
+            <input type="text" placeholder="Buscar"/>
             <button>
                 Search
             </button>
