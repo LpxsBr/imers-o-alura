@@ -10,7 +10,8 @@ const theme = {
         backgroundLevel2: "#f0f0f0",
         borderBase: "#e5e5e5",
         textColorBase: "#222222",
-        infoTextColorBase: "#808080"
+        infoTextColorBase: "#808080",
+        generalText: "#000000"
     },
     dark: {
         backgroundBase: "#181818",
@@ -18,7 +19,8 @@ const theme = {
         backgroundLevel2: "#313131",
         borderBase: "#383838",
         textColorBase: "#ffffff",
-        infoTextColorBase: "#808080"
+        infoTextColorBase: "#808080",
+        generalText: "#ffffff"
     }
 };
 

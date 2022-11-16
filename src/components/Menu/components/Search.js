@@ -7,8 +7,10 @@ max-width: 435px;
 width: 100%;
 flex-direction: row;
 overflow: hidden;
+
     
 input{
+        color: ${({theme}) => theme.generalText};
         width: 80%;
         border: 2px solid #ddd;;
         outline: none;
